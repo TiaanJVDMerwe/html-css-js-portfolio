@@ -52,4 +52,4 @@ I’m always open to learning and improving. If you have any feedback, tips, or 
 📫 Connect with Me
 GitHub: @TiaanJVDMerwe
 
-LinkedIn: (add your LinkedIn link if available)
+LinkedIn: [(add your LinkedIn link if available)](https://www.linkedin.com/in/tiaanvdmgryphon)
