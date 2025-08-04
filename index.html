@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-   <nav id="desktop-nav">
+<!-- =================== Desktop Navigation =================== -->
+<nav id="desktop-nav">
     <div class="logo">Tiaan van der Merwe</div>
     <div>
         <ul class="nav-links">
@@ -19,6 +20,9 @@
         </ul>
     </div>
    </nav>
+<!-- ================= End Desktop Navigation ================= -->
+
+<!-- =================== Hamburger Navigation =================== -->
    <nav id="hamburger-nav">
     <div class="logo">Tiaan van der Merwe</div>
     <div class="hamburger-menu">
@@ -36,11 +40,14 @@
     </div>
 
    </nav>
-   <section id="profile">
-    <div class="section_pic-container">
+<!-- ================ End Hamburger Navigation ================= -->
+
+<!-- =================== Profile Section =================== -->
+<section id="profile">
+        <div class="section_pic-container">
         <img src="./assets/1.png" alt="Tiaan van der Merwe profile picture">
-    </div>
-    <div class="section__text">
+        </div>
+        <div class="section__text">
         <p class="section__text__p1">Hello I'm</p>
         <h1 class="title">Tiaan van der Merwe</h1>
         <p class="section__text__p2">Frontend Developer</p>
@@ -66,8 +73,12 @@
              class="icon" 
              onclick="location.href='https://github.com/TiaanJVDMerwe'">
         </div>
-    </div>
-   </section>
+        </div>
+</section>
+<!-- ================= End Profile Section ================= -->
+
+<!-- =================== About Section =================== -->
+   <hr class="section-divider">
    <section id="about">
     <p class="section__text__p1"> Get to Know More</p>
     <h1 class="title"> About Me</h1>
@@ -101,19 +112,38 @@
                 </div>
             </div>
             <div class="text-container">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                     Possimus tempora voluptas vel eius exercitationem consequatur 
-                     fugiat culpa animi sunt, veritatis officiis illum ipsa 
-                     laudantium voluptatum, voluptatem accusamus earum corporis, 
-                     iure est. Dolores odit obcaecati dicta, culpa soluta nesciunt 
-                     quos quo itaque veritatis quisquam illum incidunt magni 
-                     molestiae deleniti sint id?</p>
+                <p>I am a passionate and dedicated individual transitioning from an 8-year career
+                     in education to the exciting world of front-end development. With a B.Ed. in
+                      Intermediate and Senior Phase Education, I’ve spent nearly a decade 
+                      cultivating skills in communication, problem-solving, and user-centered 
+                      thinking—skills that now guide my approach to designing and building
+                      engaging digital experiences.
+                <p>Over the past year, I’ve been actively developing my front-end skill
+                       set through hands-on practice, online courses, and personal projects.
+                        I’ve gained experience in HTML, CSS, and JavaScript, and I’m currently
+                        building my portfolio website to showcase what I’ve learned and the
+                        projects I’ve completed. Along the way, I’ve also developed a strong
+                        interest in UI and UX design, focusing on how visual clarity,
+                        responsiveness, and usability contribute to the overall user
+                        experience.<p>
+                        
+                <p>This career shift isn’t just about learning code—it’s about channeling
+                        my creativity, attention to detail, and passion for meaningful impact
+                        into a new field where I can grow continuously. My goal is to become a
+                        full-time front-end developer and collaborate with others who care about
+                        building beautiful, functional, and accessible websites. I’m excited to
+                        keep learning, improving, and contributing to the tech community through
+                        real-world projects and continuous growth.<p>
             </div>
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
         onclick="location.href='#experience'">
    </section>
+<!-- ================= End About Section ================= -->
+
+<!-- =================== Experience Section =================== -->
+   <hr class="section-divider">
    <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
@@ -251,13 +281,20 @@
             </div>
         </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
-        onclick="location.href='#projects'">
+    <img src="./assets/arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow"
+    onclick="location.href='#projects'">
    </section>
-   <section id="Projects">
+<!-- ================= End Experience Section ================= -->
+
+<!-- =================== Projects Section =================== -->
+   <hr class="section-divider">
+   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
     <div class="experience-details-container">
+        <div class="about-containers">
         <div class="details-container color-container">
             <div class="article-container">
                 <img 
@@ -267,14 +304,106 @@
             </div>
             <h2 class="experience-sub-title project-title">Project One</h2>
             <div class="btn-container">
-                <button class="btn btn-color 2 project btn" 
+                <button class="btn btn-color-2 project btn" 
                 onclick="location.href='https://github.com/TiaanJVDMerwe'">
                     Github
                 </button>
+                <button class="btn btn-color-2 project btn" 
+                onclick="location.href='https://github.com/TiaanJVDMerwe'">
+                    Live Demo
+                </button>
             </div>
         </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img 
+                src="./assets/project-2.png" 
+                alt="project 2.png"
+                class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project btn" 
+                onclick="location.href='https://github.com/TiaanJVDMerwe'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project btn" 
+                onclick="location.href='https://github.com/TiaanJVDMerwe'">
+                    Live Demo
+                </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img 
+                src="./assets/project-3.png" 
+                alt="project 3.png"
+                class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project btn" 
+                onclick="location.href='https://github.com/TiaanJVDMerwe'">
+                    Github
+                </button>
+                <button class="btn btn-color-2 project btn" 
+                onclick="location.href='https://github.com/TiaanJVDMerwe'">
+                    Live Demo
+                </button>
+            </div>
+        </div></div>
     </div>
+    <img src="./assets/arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow"
+    onclick="location.href='#contact'">
    </section>
+<!-- ================= End Projects Section ================= -->
+
+<!-- =================== Contact Section =================== -->
+   <hr class="section-divider">
+   <section id="contact">
+    <p class="section__text__p1">Get in touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img 
+            src="./assets/email.png" 
+            alt="Email icon" 
+            class="icon contact-icon email-icon">
+            <p><a href="mailto:TiaanJvandermerwe@gmail.com">TiaanJvandermerwe@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img 
+            src="./assets/linkedin.png" 
+            alt="LinekdIn icon" 
+            class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/tiaanvdmgryphon">LinkedIn</a></p>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow"
+    onclick="location.href='#top'">
+   </section>
+<!-- ================= End Contact Section ================= -->
+
+<!-- =================== Footer =================== -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+            <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>  
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Tiaan Jacques van der Merwe All rights reserved.</p>
+    </footer>
+<!-- ================= End Footer ================= -->
+
 <script src="script.js"></script>    
 </body>
 </html>
